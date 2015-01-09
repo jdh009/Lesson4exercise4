@@ -64,4 +64,4 @@ NDVIchanges <- Landsat5NDVI - Landsat8NDVI
 plot(NDVIchanges)
 
 #Write to disk
-writeRaster(NDVIchanges, filename = "Output/NDVIchanges")
+writeRaster(NDVIchanges, filename = "Output/NDVIchanges", overwrite = TRUE)
